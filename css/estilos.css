@@ -1,0 +1,82 @@
+body{
+    background-color: #00022e;
+}
+#cabecalho{
+    background-image: url("../img/night.jpg");
+    color: goldenrod;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.3em;
+    font-family: 'Segoe UI';
+}
+
+#menus{ 
+    text-align: center;
+    padding: 0.5em;
+}
+#menus a{
+	text-decoration: none;
+	color: #000688;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0.25em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menus a:hover{
+color: lightseagreen;
+border: 0.5em;
+}
+#links{
+    background-color: black;
+}
+
+#sobre{
+color: black;
+background-color: #025e9b;
+font-family: 'Segoe UI';
+border-radius: 0.2em;
+text-align: justify;
+}
+
+#foto{
+    float: right;
+}
+
+#skill{
+    text-align: center;
+    color: lightseagreen;
+    font-family: 'Segoe UI';
+    background-color: black;
+}
+
+#habilidades{
+   display: flex;
+	text-align: center;
+	margin: auto;
+	margin-top: 2em auto;
+	width: 700px;
+}
+#habilidades .content{
+    padding: 1em;
+	background-color:black ;
+	opacity: 80%;
+	margin: 0.4em;
+	border-radius: 0.8em;
+	border: solid;
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+}
+
+#habilidades .content :hover{
+color: gray;
+}
+
+#contato{
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+#rodape{
+    color: antiquewhite;
+    text-align: center;
+}
